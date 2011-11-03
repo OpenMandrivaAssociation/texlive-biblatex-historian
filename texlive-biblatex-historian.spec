@@ -1,3 +1,9 @@
+# revision 19787
+# category Package
+# catalog-ctan /macros/latex/exptl/biblatex-contrib/biblatex-historian
+# catalog-date 2010-08-23 11:17:08 +0200
+# catalog-license lppl
+# catalog-version 0.4
 Name:		texlive-biblatex-historian
 Version:	0.4
 Release:	1
@@ -41,6 +47,7 @@ Chicago).
 %doc %{_texmfdistdir}/doc/latex/biblatex-historian/README.txt
 %doc %{_texmfdistdir}/doc/latex/biblatex-historian/historian.bib
 %doc %{_texmfdistdir}/doc/latex/biblatex-historian/historian.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ Chicago).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
