@@ -6,7 +6,7 @@
 # catalog-version 0.4
 Name:		texlive-biblatex-historian
 Version:	0.4
-Release:	9
+Release:	10
 Summary:	A Biblatex style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-historian
