@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-historian
 Version:	19787
-Release:	1
+Release:	2
 Summary:	A Biblatex style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-historian
