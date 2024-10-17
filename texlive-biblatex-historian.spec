@@ -3,7 +3,7 @@ Version:	19787
 Release:	2
 Summary:	A Biblatex style
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-historian
+URL:		https://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-historian
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-historian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-historian.doc.r%{version}.tar.xz
